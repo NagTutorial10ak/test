@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Regression" parallel="tests">
+	
+  <test  name="RetailApps">
+    <classes>
+      <class name="week6.day1.OpenAmazon"/>
+        <class name="week6.day1.OpenFlikart"/>
+ 
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test   name="SeleniumApps">
+    <classes>
+      <class name="week6.day1.WebTableExample"/>
+      <class name="week6.day1.WaitsExample"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
